@@ -60,7 +60,7 @@ public class UWParking extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(, 0)).title("Marker"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(47.656836, -122.312041)).title("UW Central Plaza Parking Garage"));
     }
 
 }
